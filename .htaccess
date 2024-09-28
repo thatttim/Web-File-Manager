@@ -1,0 +1,7 @@
+RewriteEngine On
+Options -Multiviews
+
+# Rewrite URLs to append .php extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
