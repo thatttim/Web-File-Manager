@@ -24,7 +24,7 @@ This web-based file manager allows users to manage files directly through a web 
 
 ## Installation Instructions
 
-### Step 1: Download and Extract
+### Download and Extract
 
 1. Download the PHP Web File Manager source code.
 2. Extract the contents into your web server's document root or any directory you want to use for the file manager.
